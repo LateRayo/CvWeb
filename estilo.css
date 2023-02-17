@@ -35,8 +35,9 @@ header{
 h1{
 
     margin-bottom: 10px;
-
 }
+
+
 
 nav{
 
@@ -79,10 +80,12 @@ nav ul li a::before {
 }
 
 nav ul li a:hover::before {
-width: 100%;
+    width: 100%;
 }
+
 /* menu oculto */
 .menu{
+
     display: none;
     
 }
@@ -97,6 +100,7 @@ h2{
     margin-top: 2%;
     margin-bottom: 10px;
 }
+
 .perfil{
 
     border: 1px solid;
@@ -111,7 +115,12 @@ h2{
     margin: auto;
     margin-top: 1%;
     margin-bottom: 1%;
-    
+}
+
+.EdadyNombre{
+
+    list-style-position: inside ;
+    padding: 10px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -225,20 +234,26 @@ section div p {
     margin-bottom: 1%;
 }
 #c{
+
     margin: 5px;
     width: 90%;
     max-width: 100px;
 }
+
 #python{
+
     margin: 5px;
     width: 90%;
     max-width: 100px;
 }
+
 #js{
+
     margin: 5px;
     width: 90%;
     max-width: 90px;
 }
+
 #electronica{
 
     margin: 5px;
@@ -246,12 +261,14 @@ section div p {
     max-width: 100px;
 
 }
+
 #punteado{
 
     margin: 5px;
     width: 90%;
     max-width: 100px ;
 }
+
 .proyectos{
 
     border: 1px solid;
@@ -296,11 +313,14 @@ section div p {
 
     margin-right: 6px;
 }
+
 .proyectos div p{
+
     font-size: 18px;
 }
+
 /* imagenes Pre-view*/
-.modal {
+.modal1, .modal2 ,.modal3 {
     display: none;
     position: fixed;
     z-index: 1;
@@ -316,7 +336,6 @@ section div p {
 
     margin: 50px auto ; /* centrar vertical y horizontalmente */
     padding: 40px 20px 20px 20px;
-
     width: 80%;
     max-width: 800px; /* ancho máximo */
     position: relative;
@@ -334,7 +353,8 @@ section div p {
 }
 
 .imgpreview{
-    border:10px solid #ffffff;
+
+    border:10px solid #c2c1c1;
     width: 100%;
     object-fit: cover;
 }
@@ -357,12 +377,14 @@ section div p {
 
 .educacion div{
 
+    
     font-size: 18px;
-    margin-right: 9%;
-    margin-left: 9%;
+    margin-right: 8%;
+    margin-left: 8%;
     margin-top: 1%;
     margin-bottom: 1%;
 }
+
 
 .educacion div i{
     
@@ -393,7 +415,6 @@ footer li{
     list-style: none;
     margin-left: 3%;
     padding: 5px 0;
-
 
 }
 footer a{
